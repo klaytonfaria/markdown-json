@@ -1,19 +1,18 @@
 #!/usr/bin/env node
-"use strict"
+'use strict'
 
-var cli = require("cli"),
-    utils = require("./lib/utils"),
-    json = require("jsonfile"),
-    helpme = require("./lib/helpme"),
-    options = cli.parse(helpme),
-    pkg = json.readFileSync("package.json", {throws : true}) || null;
+const cli = require('cli')
+const json = require('jsonfile')
+const helpme = require('./lib/helpme')
+const generator = require('./lib/generator')
+const pkg = json.readFileSync('./package.json', {throws: true}) || null
 
-cli.main(function(args, options) {
-  if(options.version) {
-    console.log(pkg.version);
+cli.parse(helpme)
+
+cli.main((args, options) => {
+  if (options.version) {
+    console.log(pkg.version)
   } else {
-    var settingsGenerator = require("./lib/settingsGenerator")(options),
-        content = settingsGenerator.readFile(options.cwd + options.src);
-    utils.writeJson(options.dist, content);
+    generator.init()
   }
-});
+})

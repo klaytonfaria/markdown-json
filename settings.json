@@ -1,0 +1,7 @@
+{
+  "name": "markdown-json",
+  "cwd": "./",
+  "src": "example/content/",
+  "filePattern": "**/*.md",
+  "dist": "example/output.json"
+}

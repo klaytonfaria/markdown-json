@@ -1,0 +1,41 @@
+{
+  "name": "markdown-json",
+  "version": "0.0.1",
+  "description": "Parse markdown and export to json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klaytonfaria/markdown-json.git"
+  },
+  "keywords": [
+    "markdown",
+    "json",
+    "parser",
+    "yaml",
+    "html"
+  ],
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^6.0.0-beta.3",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.0",
+    "eslint-watch": "^2.1.14"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1",
+    "metalsmith": "^2.2.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-filter": "^1.0.2",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-prompt": "0.0.8"
+  },
+  "author": "Klayton Faria <klayton.souza@gmail.com> (http://klaytonfaria.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klaytonfaria/markdown-json/issues"
+  },
+  "homepage": "https://github.com/klaytonfaria/markdown-json#readme"
+}

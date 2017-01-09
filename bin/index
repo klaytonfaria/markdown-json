@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+const app = require("../markdown-json.js");

@@ -29,9 +29,12 @@
     "jsonfile": "^2.3.1",
     "metalsmith": "^2.2.0",
     "metalsmith-collections": "^0.9.0",
+    "metalsmith-excerpts": "^1.1.0",
     "metalsmith-filter": "^1.0.2",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-prompt": "0.0.8"
+    "metalsmith-prompt": "0.0.8",
+    "metalsmith-to-json": "0.0.7",
+    "metalsmith-updated": "^0.1.4"
   },
   "author": "Klayton Faria <klayton.souza@gmail.com> (http://klaytonfaria.io)",
   "license": "MIT",

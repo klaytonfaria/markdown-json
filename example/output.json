@@ -1,76 +1,115 @@
 {
-  "data": {
-    "app": {
-      "name": "markdown-json",
-      "cwd": "./",
-      "src": "example/content/",
-      "filePattern": "**/*.md",
-      "dist": "example/output.json",
-      "version": "0.0.1"
+  "app": {
+    "name": "markdown-json",
+    "cwd": "./",
+    "src": "example/content/",
+    "filePattern": "**/*.md",
+    "dist": "example/output.json",
+    "version": "0.0.1"
+  },
+  "data": [
+    {
+      "section": "Elements",
+      "title": "buttons",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "mobile"
+      ],
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3",
+        "tag4",
+        "tag5"
+      ],
+      "styles": [
+        "https://lalao.com/styles/structure.min.css",
+        "https://lalao.com/styles/app.min.css"
+      ],
+      "contents": "<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-warning\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-warning {\n  @include states(#F6B428, #E3A522);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-warning&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
+      "excerpt": "<p>Base button layout sample:</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "buttons"
     },
-    "data": [
-      {
-        "section": "Elements",
-        "title": "buttons",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "styles": "https://static.wmobjects.com.br/webstore/style/structure.min.css",
-        "contents": "<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-warning\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-warning {\n  @include states(#F6B428, #E3A522);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-warning&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
-        "id": "buttons"
-      },
-      {
-        "section": "Elements",
-        "title": "icons",
-        "sas": "sassa",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "lastUpdate": "2012-12-07T00:00:00.000Z",
-        "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-        "id": "icons"
-      },
-      {
-        "section": "Elements",
-        "title": "input",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-        "id": "input"
-      },
-      {
-        "contents": "<h1 id=\"azkabanstore-com\">AzkabanStore.com</h1>\n<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum cum similique assumenda sit nam officiis culpa ipsum fugit explicabo, commodi molestiae, quibusdam, unde voluptatum doloribus. Eius quidem, blanditiis dolorum qui.\n Nemo blanditiis eos voluptates doloremque maiores excepturi tempore, rerum quas provident iste repudiandae laborum, veniam illo, distinctio non assumenda doloribus? Eum ad labore temporibus accusantium unde reiciendis quos officiis veniam.\n Quibusdam sunt explicabo illo quam ipsam, provident, voluptate ea corporis blanditiis magni vitae adipisci suscipit error nulla doloremque corrupti tempora labore. Enim illum repellendus ipsa, tempore ducimus iusto voluptatem dolore.</p>\n<h2 id=\"some-tips\">Some tips</h2>\n<h3 id=\"clonning-repository\">Clonning repository</h3>\n<p>To clone the main repository and all of your submodules, type the code on terminal:</p>\n<pre><code class=\"lang-sh\">mkdir -p /app/AzkabanStore-frontend/\ncd /app/AzkabanStore-frontend/\ngit clone --recursive https://gitlab.wmxp.com.br/webstore-frontend/webstore.git\n</code></pre>\n<h3 id=\"adding-a-new-submodule\">Adding a new submodule</h3>\n<pre><code class=\"lang-sh\">git submodule add &lt;repository.git&gt; &lt;target path&gt;\ngit add &lt;target path&gt;\ngit commit -m &quot;Creating your commit message for a new submodule&quot;\n</code></pre>\n<h3 id=\"remove-a-submodule\">Remove a submodule</h3>\n<ul>\n<li>Delete the section from the .gitmodules file. Like this:<pre><code>[submodule &quot;vendor&quot;]\n  path = vendor\n  url = git://repo.com/some-project/some-repo.git\n</code></pre></li>\n<li><p>Stage the .gitmodules changes.</p>\n<pre><code class=\"lang-sh\">git add .gitmodules\n</code></pre>\n</li>\n<li><p>Delete the section from .git/config. Like this:</p>\n<pre><code>[submodule &quot;vendor&quot;]\n  url = git://repo.com/some-project/some-repo.git\n</code></pre></li>\n<li>Remove cache from .git<pre><code class=\"lang-sh\">git rm --cached path/to/submodule .\n</code></pre>\n</li>\n<li>Remove module from .git<pre><code class=\"lang-sh\">.git/modules/submodule_name\n</code></pre>\n</li>\n<li>Commit the changes</li>\n<li>Delete the untracked submodule files<pre><code class=\"lang-sh\">rm -rf path/to/submodule\n</code></pre>\n</li>\n</ul>\n<h3 id=\"updating-submodules\">Updating submodules</h3>\n<pre><code class=\"lang-sh\">cd /app/AzkabanStore-frontend/webstore\ngit submodule update --init --recursive\n</code></pre>\n<h3 id=\"updating-submodules-flow\">Updating submodules flow</h3>\n<ul>\n<li>Make the commit on submodule repository and push it to remote branch</li>\n<li>Create npm tag on submodule repository (semver)</li>\n<li>Go to webstore repository (/app/AzkabanStore-frontend/webstore) and commit (and push) the new submodule commit reference</li>\n</ul>\n<pre><code class=\"lang-sh\">cd /app/AzkabanStore-frontend/webstore/assets/components/checkout\ngit add some-file.js\ngit commit -m &quot;Creating your commit message&quot;\ngit push origin master\ncd ../../../\ngit status\ngit add assets/components/checkout\ngit commit -m &quot;Creating your commit message&quot;\ngit push origin master\n</code></pre>\n",
-        "id": "readme-default"
-      },
-      {
-        "section": "Grunt",
-        "title": "Tasks and modules",
-        "description": "All of Grunt tasks and modules used on Webstore app",
-        "contents": "<p>All of our grunt tasks are registered by yaml pattern (founds on /app/AzkabanStore-frontend/webstore/config/grunt/aliases.yaml). Follow bellow the table with all registered tasks:</p>\n<h1 id=\"environment-variables\">Environment variables</h1>\n<p>Some tasks needs of environment variables values to know the target, version or device that should be executed.  </p>\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Variable name</th>\n\n<th class=\"confluenceTh\">description</th>\n\n<th colspan=\"1\" class=\"confluenceTh\">applicable values</th>\n\n<th colspan=\"1\" class=\"confluenceTh\">default value</th>\n\n<th class=\"confluenceTh\">attribution example</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">env</td>\n\n<td class=\"confluenceTd\">Set current environment </td>\n\n<td colspan=\"1\" class=\"confluenceTd\">dev | qa | stg | prod</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">qa</td>\n\n<td class=\"confluenceTd\">--env=dev</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">device</td>\n\n<td class=\"confluenceTd\">Set current device</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">desktop | mobile</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">desktop,mobile</td>\n\n<td class=\"confluenceTd\">--device=desktop</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">builderVersion</td>\n\n<td class=\"confluenceTd\">Set assets package version</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">semver tag</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">NONE</td>\n\n<td class=\"confluenceTd\">--bulderVersion=2.5.6</td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p><strong><br>Grunt task with params example:</strong>  </p>\n<p>The example bellow, should build all assets with the development path and properties and with your assets package on 2.2.2 version.</p>\n<table class=\"wysiwyg-macro\" data-macro-name=\"code\" data-macro-parameters=\"language=bash|linenumbers=true|theme=Midnight|title=Grunt task example\" style=\"background-image: url(/plugins/servlet/confluence/placeholder/macro-heading?definition=e2NvZGU6dGl0bGU9R3J1bnQgdGFzayBleGFtcGxlfHRoZW1lPU1pZG5pZ2h0fGxpbmVudW1iZXJzPXRydWV8bGFuZ3VhZ2U9YmFzaH0&amp;locale=en_GB&amp;version=2); background-repeat: no-repeat;\" data-macro-body-type=\"PLAIN_TEXT\">\n\n<tbody>\n\n<tr>\n\n<td class=\"wysiwyg-macro-body\">\n\n<pre>grunt build --env=dev --builderVersion=2.2.2</pre>\n\n</td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<h1 id=\"common-tasks\">Common tasks</h1>\n<p><span style=\"color: rgb(0,0,0);\">Tasks used for others tasks and process.<br> </span></p>\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Task name</th>\n\n<th colspan=\"1\" class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Task description</span></th>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-tasks</span></th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">default</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Run the default task when call grunt without a task name.</span></td>\n\n<td class=\"confluenceTd\">\n\n<table style=\"line-height: 1.42857;\" class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span>Sub-task name</span></th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\"><span>watch</span></td>\n\n<td class=\"confluenceTd\"><span>Run predefined tasks whenever watched files change.</span></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td class=\"confluenceTd\">preCommit</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<span>Run when the pre-commit git hook is called</span>\n\n</td>\n\n<td class=\"confluenceTd\">\n\n<table style=\"line-height: 1.42857;\" class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Sub-task name</th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\"><span>jshint</span></td>\n\n<td class=\"confluenceTd\">Validate js with jshint</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\"><span>plato:global</span></td>\n\n<td class=\"confluenceTd\">\n\nGenerate complexity analysis reports with plato\n\n</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\"><span>karma:desktop</span></td>\n\n<td class=\"confluenceTd\">Karma test runer for desktop scripts device</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\"><span>karma:mobile</span></td>\n\n<td class=\"confluenceTd\"><span>Karma test runer for mobile scripts device</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">notify:test</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Notify when karma has finished</td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">postInstall</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Run after npm modules has installed</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-task name</span></th>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">sub-task description</span></th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">clean:hooks</td>\n\n<td class=\"confluenceTd\">Clean all local git hooks</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">shell:environment</td>\n\n<td class=\"confluenceTd\">Install all environments dependencies</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">build:env=dev</td>\n\n<td class=\"confluenceTd\">Run the development build taks</td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">preInstall</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Run before npm modules installation</span></td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-task name</span></th>\n\n<th class=\"confluenceTh\"><span>sub-task description</span></th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">shell:installDependencies</td>\n\n<td class=\"confluenceTd\">Install all app dependencies. (Ex. fontforge)</td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">test</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Run karma tests</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span>Sub-task name</span></th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">karma:desktop</td>\n\n<td class=\"confluenceTd\"><span>Karma test runer for desktop scripts device</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">karma:mobile</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Karma test runer for mobile scripts device</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">notify:test</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Notify when karma has finished</span></td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">report</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Build all analyses and documentation reports</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Sub-task name</th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">karma</td>\n\n<td class=\"confluenceTd\">Karma test runer</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">plato</td>\n\n<td class=\"confluenceTd\"><span>Generate complexity analysis reports with plato</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">yuidoc</td>\n\n<td class=\"confluenceTd\">Generate YUIdocs</td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<p></tbody></p>\n<p></table></p>\n<h1 id=\"vendor-tasks\">Vendor tasks</h1>\n<p>Tasks to build all vendor assets  </p>\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Task name</th>\n\n<th class=\"confluenceTh\">description</th>\n\n<th colspan=\"1\" class=\"confluenceTh\">Sub-tasks</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">buildOmniture</td>\n\n<td class=\"confluenceTd\">Build all omniture scripts</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Sub-task name</th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">concat:desktopOmniture</td>\n\n<td class=\"confluenceTd\">Concat all omniture desktop scripts</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">concat:mobileOmniture</td>\n\n<td class=\"confluenceTd\"><span>Concat all omniture mobile scripts</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">uglify:desktopOmniture</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Uglify all omniture desktop scripts</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">uglify:mobileOmniture</td>\n\n<td colspan=\"1\" class=\"confluenceTd\"><span>Uglify all omniture mobile scripts</span></td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p></td></p>\n<p></tr></p>\n<p></tbody></p>\n<p></table></p>\n<h1 id=\"dist-tasks\">Dist tasks</h1>\n<p>Table with tasks that give support to build tasks creating our distribution files</p>\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Task name</span></th>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">description</span></th>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-tasks</span></th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">dist</td>\n\n<td class=\"confluenceTd\"><span>Create a dist of Webstore assets and templates<br>for all environments  <span>(</span><em>qa</em><span>,</span> <em>stg</em> <span>and</span> <em>prod</em><span>)</span></span></td>\n\n<td class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-task name</span></th>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">sub-task description</span></th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">build:scripts</td>\n\n<td class=\"confluenceTd\">Run build tasks to scripts</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">replace:templateEnvironment</td>\n\n<td class=\"confluenceTd\">Replace environment label on script</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">copy:distStaticDesktop</td>\n\n<td class=\"confluenceTd\">Create desktop dist directory for statics</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">copy:distStaticMobile</td>\n\n<td class=\"confluenceTd\"><span>Create mobile dist directory <span>for statics</span></span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">copy:distTemplate</td>\n\n<td class=\"confluenceTd\"><span>Create dist directory</span> <span>for templates</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">replace:stylePathsDesktop</td>\n\n<td class=\"confluenceTd\">Replace styles path on templates for desktop</td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">replace:stylePathsMobile</td>\n\n<td class=\"confluenceTd\"><span>Replace styles path on templates for mobile</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">replace:insertTag</td>\n\n<td class=\"confluenceTd\"><span>Replace package version on templates</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">dustjs</td>\n\n<td class=\"confluenceTd\">Compile dust templates for all environments</td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td class=\"confluenceTd\">dist:dev</td>\n\n<td class=\"confluenceTd\"><span>Create a dist of Webstore assets and templates</span><br><span>for development environment</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">dist:qa</td>\n\n<td class=\"confluenceTd\"><span>Create a dist of Webstore assets and templates</span><br><span>for qa environment</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">dist:stg</td>\n\n<td class=\"confluenceTd\"><span>Create a dist of Webstore assets and templates</span><br><span>for staging environment</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">dist:prod</td>\n\n<td class=\"confluenceTd\"><span>Create a dist of Webstore assets and templates</span><br><span>for production environment</span></td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<h1 id=\"build-tasks\">Build tasks</h1>\n<p>Table with all tasks that should build Webstore assets  </p>\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Task name</th>\n\n<th class=\"confluenceTh\">description</th>\n\n<th colspan=\"1\" class=\"confluenceTh\">Sub-tasks</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">build</td>\n\n<td class=\"confluenceTd\">Build Webstore assets and templates</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\">Sub-task name</th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">build:desktop</td>\n\n<td class=\"confluenceTd\"><span>Build all Webstore assets and templates for desktop device</span></td>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">build:mobile</td>\n\n<td class=\"confluenceTd\"><span>Build all Webstore assets and templates for mobile device</span></td>\n\n</tr>\n\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">dist</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Generate dist folder with built files</td>\n\n</tr>\n\n</tbody>\n\n</table>\n\n<p></td></p>\n<p></tr></p>\n<tr>\n\n<td colspan=\"1\" class=\"confluenceTd\">buildAssets</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">Run build task for all environments (<em>qa</em>, <em>stg</em> and <em>prod</em>)</td>\n\n<td colspan=\"1\" class=\"confluenceTd\">\n\n<table class=\"confluenceTable\">\n\n<tbody>\n\n<tr>\n\n<th class=\"confluenceTh\"><span style=\"color: rgb(0,0,0);\">Sub-task name</span></th>\n\n<th class=\"confluenceTh\">sub-task description</th>\n\n</tr>\n\n<tr>\n\n<td class=\"confluenceTd\">shell:buildAssets</td>\n\n<td class=\"confluenceTd\"><span>Run build task for all environments <span>(</span><em>qa</em><span>,</span> <em>stg</em> <span>and</span> <em>prod</em><span>)</span></span></td>\n\n</tr>\n\n<p></tbody></p>\n<p></table></p>\n<p></td></p>\n<p></tr></p>\n<p></tbody></p>\n<p></table></p>\n<div><span style=\"white-space: pre-wrap;\"><br></span></div>\n",
-        "id": "tasks-modules"
-      },
-      {
-        "section": "Globals",
-        "title": "utils [js]",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-        "id": "globals__js-utils"
-      },
-      {
-        "section": "Globals",
-        "title": "sass reset",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-        "id": "globals__sass-reset"
-      },
-      {
-        "section": "Globals",
-        "title": "sass utils [scss]",
-        "date": "2012-12-07T00:00:00.000Z",
-        "device": "desktop, tablet",
-        "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-        "id": "globals__sass-utils"
-      }
-    ]
-  }
+    {
+      "section": "Elements",
+      "title": "icons",
+      "sas": "sassa",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "lastUpdate": "2012-12-07T00:00:00.000Z",
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "icons"
+    },
+    {
+      "section": "Elements",
+      "title": "input",
+      "date": "2017-01-01T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "input"
+    },
+    {
+      "section": "Globals",
+      "title": "utils [js]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "globals__js-utils"
+    },
+    {
+      "section": "Globals",
+      "title": "sass reset",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "globals__sass-reset"
+    },
+    {
+      "section": "Globals",
+      "title": "sass utils [scss]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "created": "2017-01-10T21:46:08.487Z",
+      "updated": "2017-01-10T21:46:08.487Z",
+      "modified": false,
+      "id": "globals__sass-utils"
+    }
+  ]
 }

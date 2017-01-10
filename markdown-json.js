@@ -13,6 +13,6 @@ cli.main((args, options) => {
   if (options.version) {
     console.log(pkg.version)
   } else {
-    generator.init()
+    generator.build(options.config)
   }
 })

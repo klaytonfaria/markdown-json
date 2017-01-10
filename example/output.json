@@ -29,9 +29,6 @@
       ],
       "contents": "<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-warning\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-warning {\n  @include states(#F6B428, #E3A522);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-warning&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
       "excerpt": "<p>Base button layout sample:</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "buttons"
     },
     {
@@ -46,9 +43,6 @@
       "lastUpdate": "2012-12-07T00:00:00.000Z",
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "icons"
     },
     {
@@ -61,9 +55,6 @@
       ],
       "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "input"
     },
     {
@@ -76,9 +67,6 @@
       ],
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "globals__js-utils"
     },
     {
@@ -91,9 +79,6 @@
       ],
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "globals__sass-reset"
     },
     {
@@ -106,9 +91,6 @@
       ],
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:46:08.487Z",
-      "updated": "2017-01-10T21:46:08.487Z",
-      "modified": false,
       "id": "globals__sass-utils"
     }
   ]

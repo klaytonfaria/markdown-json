@@ -2,8 +2,18 @@
 section: Elements
 title: buttons
 date: 2012-12-07
-device: desktop, tablet
-styles: https://static.wmobjects.com.br/webstore/style/structure.min.css
+device: 
+- desktop
+- mobile
+tags:
+- tag1
+- tag2
+- tag3
+- tag4
+- tag5
+styles: 
+- https://lalao.com/styles/structure.min.css
+- https://lalao.com/styles/app.min.css
 ---
 
 Types

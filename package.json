@@ -1,7 +1,7 @@
 {
   "name": "markdown-json",
   "version": "0.0.1",
-  "description": "Parse markdown and export to json file",
+  "description": "Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.",
   "main": "index.js",
   "scripts": {
     "test": "test"
@@ -18,7 +18,7 @@
     "html"
   ],
   "devDependencies": {
-    "eslint": "^3.3.1",
+    "eslint": "^3.13.1",
     "eslint-config-standard": "^6.0.0-beta.3",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.0",

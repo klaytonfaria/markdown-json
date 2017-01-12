@@ -1,7 +1,6 @@
 ---
 section: Elements
 title: input
-date: 2017-01-01
 device: 
 - desktop 
 - tablet

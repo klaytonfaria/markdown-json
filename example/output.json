@@ -1,54 +1,32 @@
 {
   "app": {
-    "name": "markdown-json",
+    "config": "./settings.json",
     "cwd": "./",
     "src": "example/content/",
     "filePattern": "**/*.md",
     "dist": "example/output.json",
+    "name": "markdown-json",
     "version": "0.0.1"
   },
   "data": [
     {
       "section": "Elements",
       "title": "buttons",
-      "date": "2012-12-07T00:00:00.000Z",
       "device": [
         "desktop",
         "mobile"
-      ],
-      "tags": [
-        "tag1",
-        "tag2",
-        "tag3",
-        "tag4",
-        "tag5"
       ],
       "styles": [
         "https://lalao.com/styles/structure.min.css",
         "https://lalao.com/styles/app.min.css"
       ],
-      "contents": "<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-warning\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-warning {\n  @include states(#F6B428, #E3A522);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-warning&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
-      "excerpt": "<p>Base button layout sample:</p>",
+      "contents": "<p>Follow some application examples of buttons</p>\n<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
+      "excerpt": "<p>Follow some application examples of buttons</p>",
       "id": "buttons"
     },
     {
       "section": "Elements",
-      "title": "icons",
-      "sas": "sassa",
-      "date": "2012-12-07T00:00:00.000Z",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "lastUpdate": "2012-12-07T00:00:00.000Z",
-      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "id": "icons"
-    },
-    {
-      "section": "Elements",
       "title": "input",
-      "date": "2017-01-01T00:00:00.000Z",
       "device": [
         "desktop",
         "tablet"
@@ -56,6 +34,17 @@
       "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
       "id": "input"
+    },
+    {
+      "section": "Elements",
+      "title": "icons",
+      "tags": [
+        "icons",
+        "base"
+      ],
+      "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
+      "excerpt": "<p>Our icons list still is empty :(</p>",
+      "id": "icons"
     },
     {
       "section": "Globals",
@@ -71,18 +60,6 @@
     },
     {
       "section": "Globals",
-      "title": "sass reset",
-      "date": "2012-12-07T00:00:00.000Z",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "id": "globals__sass-reset"
-    },
-    {
-      "section": "Globals",
       "title": "sass utils [scss]",
       "date": "2012-12-07T00:00:00.000Z",
       "device": [
@@ -92,6 +69,18 @@
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
       "id": "globals__sass-utils"
+    },
+    {
+      "section": "Globals",
+      "title": "sass reset",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "globals__sass-reset"
     }
   ]
 }

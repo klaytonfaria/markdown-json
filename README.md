@@ -92,18 +92,18 @@ Base button layout sample:
   <span class="text">Button</span>
 </button>
 
-~~~scss
+\~~~scss
 .btn-primary {
   @include states(#1A75CE, #086B9C);
 }
-~~~
+\~~~
 
-~~~html
+\~~~html
 <button type="button" class="buy-button btn btn-success">
   <span class="icon"></span>
   <span class="text">Button</span>
 </button>
-~~~
+\~~~
 ```
 
 

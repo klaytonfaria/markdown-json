@@ -14,7 +14,7 @@ npm install markdown-json
 ### Usage
 
 ```
-markdown-json.js [OPTIONS] [ARGS]
+markdown-json [OPTIONS] [ARGS]
 
 Options:
   -c, --config [STRING]  settings file (Default is ./settings.json)
@@ -30,7 +30,7 @@ Options:
 
 Cli example
 ```
-markdown-json.js -c ~/app/my-app-settings.json
+markdown-json -c ~/app/my-app-settings.json
 ```
 
 ## Settings file

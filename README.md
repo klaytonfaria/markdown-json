@@ -5,74 +5,37 @@
 Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.
 
 
-## Installation
-
-`npm install markdown-json`
-
-## Usage
+### Installation
 
 ```
-markdown-json [OPTIONS]
+npm install markdown-json
+```
+
+### Usage
+
+```
+markdown-json.js [OPTIONS] [ARGS]
 
 Options:
-      --cwd [STRING]     work directory (Default is ./)
-      --src [STRING]     file(s) directory (Default is ./)
-      --filePattern [STRING]file(s) directory (Default is **/*.md)
-      --dist [STRING]    output file directory (Default is /app/settings.json)
+  -c, --config [STRING]  settings file (Default is ./settings.json)
+  -w, --cwd [STRING]     work directory (Default is ./)
+  -d, --src [STRING]     file(s) directory (Default is ./)
+  -p, --filePattern [STRING]file(s) directory (Default is **/*.md)
+  -d, --dist [STRING]    output file directory (Default is /app/settings.json)
   -h, --help             Display help and usage details
 ```
 
-## Input example
-```markdown
----
-section: Elements
-title: input
-date: 2012-12-07
-device: 
-- desktop 
-- tablet
----
 
-## Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.
+# Examples
 
+Cli example
 ```
-
-## Output example
-```json
-{
-  "app": {
-    "name": "markdown-json",
-    "cwd": "./",
-    "src": "example/content/",
-    "filePattern": "**/*.md",
-    "dist": "example/output.json",
-    "version": "0.0.1"
-  },
-  "data": [    
-    {
-      "section": "Elements",
-      "title": "input",
-      "date": "2017-01-01T00:00:00.000Z",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "created": "2017-01-10T21:36:55.568Z",
-      "updated": "2017-01-10T21:36:55.568Z",
-      "modified": false,
-      "id": "input"
-    }
-  ]
-}
+markdown-json.js -c ~/app/my-app-settings.json
 ```
-
 
 ## Settings file
 
-Markdown to json needs follow settings file.
+Using a json file as settings.
 
 ```json
 {
@@ -83,3 +46,112 @@ Markdown to json needs follow settings file.
   "dist": "example/output.json"
 }
 ```
+
+## Files
+
+### File example 1
+
+```markdown
+---
+section: Elements
+title: icons
+tags: 
+- icons
+- base
+---
+
+# Icons
+
+Our icons list still is empty :(
+```
+
+### File example 2
+```markdown
+---
+section: Elements
+title: buttons
+device: 
+- desktop
+- mobile
+styles: 
+- https://lalao.com/styles/structure.min.css
+- https://lalao.com/styles/app.min.css
+---
+
+Follow some application examples of buttons
+
+Types
+============
+
+## Base
+
+Base button layout sample:
+
+<button type="button" class="buy-button btn btn-success">
+  <span class="icon"></span>
+  <span class="text">Button</span>
+</button>
+
+~~~scss
+.btn-primary {
+  @include states(#1A75CE, #086B9C);
+}
+~~~
+
+~~~html
+<button type="button" class="buy-button btn btn-success">
+  <span class="icon"></span>
+  <span class="text">Button</span>
+</button>
+~~~
+```
+
+
+## Output:
+```json
+{
+  "app": {
+    "config": "./settings.json",
+    "cwd": "./",
+    "src": "example/content/",
+    "filePattern": "**/*.md",
+    "dist": "example/output.json",
+    "name": "markdown-json",
+    "version": "0.0.1"
+  },
+  "data": [
+    {
+      "section": "Elements",
+      "title": "buttons",
+      "device": [
+        "desktop",
+        "mobile"
+      ],
+      "styles": [
+        "https://lalao.com/styles/structure.min.css",
+        "https://lalao.com/styles/app.min.css"
+      ],
+      "contents": "<p>Follow some application examples of buttons</p>\n<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
+      "excerpt": "<p>Follow some application examples of buttons</p>",
+      "id": "buttons"
+    },
+    {
+      "section": "Elements",
+      "title": "icons",
+      "tags": [
+        "icons",
+        "base"
+      ],
+      "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
+      "excerpt": "<p>Our icons list still is empty :(</p>",
+      "id": "icons"
+    }    
+  ]
+}
+```
+
+
+## TODOS
+- [ ] Node api with promises
+- [ ] Code review
+- [ ] some unit tests

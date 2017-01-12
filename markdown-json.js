@@ -13,7 +13,6 @@ const pkg = json.readFileSync('./package.json', {throws: true}) || null
 cli.parse(helpme)
 
 cli.main((args, options) => {
-	console.log(options)
   try {
     const file = path.resolve(__dirname, options.config)
     if (fs.existsSync(file)) {

@@ -1,4 +1,5 @@
-# markdown-json
+markdown-json [![npm](https://img.shields.io/npm/dt/markdown-json.svg)]() [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+===
 
 ## Introduction
 

@@ -1,19 +1,18 @@
 markdown-json [![npm](https://img.shields.io/npm/dt/markdown-json.svg)]() [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 ===
 
-## Introduction
+## Why?
 
 Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.
 
 
-### Installation
+## Installation
 
 ```
 npm install markdown-json
 ```
 
-### Usage
-
+### Command line usage:
 ```
 markdown-json [OPTIONS] [ARGS]
 
@@ -26,17 +25,18 @@ Options:
   -h, --help             Display help and usage details
 ```
 
+### Require module usage:
+```JavaScript
+const markdownJson = require('metalsmith-markdown');
 
-# Examples
-
-Cli example
+markdownJson(<settingsObj>) // => returns a Promise
 ```
-markdown-json -c ~/app/my-app-settings.json
-```
 
-## Settings file
+## Usage Example:
+---
 
-Using a json file as settings.
+#### Settings example
+*Use a object with all settings or save as a json file*
 
 ```json
 {
@@ -48,9 +48,34 @@ Using a json file as settings.
 }
 ```
 
-## Files
+#### Call through command line example:
+```
+markdown-json -c ~/app/my-app-settings.json
+```
 
-### File example 1
+#### Call through require module example:
+```JavaScript
+const markdownJson = require('metalsmith-markdown');
+      settings = {
+        name: 'markdown-json',
+      	cwd: './',
+      	src: 'example/content/',
+        filePattern: '**/*.md',
+        dist: 'example/output.json'
+      };
+
+markdownJson(settings).then((data) => {
+  console.log('data:', data);
+}).catch((err) => {
+  console.log('error:', err);
+})
+```
+
+
+
+## Files input
+
+#### File example 1
 
 ```markdown
 ---
@@ -66,7 +91,7 @@ tags:
 Our icons list still is empty :(
 ```
 
-### File example 2
+#### File example 2
 ```markdown
 ---
 section: Elements
@@ -153,6 +178,7 @@ Base button layout sample:
 
 
 ## TODOS
-- [ ] Node api with promises
+- [X] Node api with promises
 - [ ] Code review
-- [ ] some unit tests
+- [ ] Some unit tests
+- [ ] Run with http server

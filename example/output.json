@@ -6,7 +6,7 @@
     "filePattern": "**/*.md",
     "dist": "example/output.json",
     "name": "markdown-json",
-    "version": "0.0.1"
+    "version": "1.0.1"
   },
   "data": [
     {
@@ -26,17 +26,6 @@
     },
     {
       "section": "Elements",
-      "title": "input",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "id": "input"
-    },
-    {
-      "section": "Elements",
       "title": "icons",
       "tags": [
         "icons",
@@ -45,6 +34,17 @@
       "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
       "excerpt": "<p>Our icons list still is empty :(</p>",
       "id": "icons"
+    },
+    {
+      "section": "Elements",
+      "title": "input",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit-\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "input"
     },
     {
       "section": "Globals",
@@ -60,18 +60,6 @@
     },
     {
       "section": "Globals",
-      "title": "sass utils [scss]",
-      "date": "2012-12-07T00:00:00.000Z",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "id": "globals__sass-utils"
-    },
-    {
-      "section": "Globals",
       "title": "sass reset",
       "date": "2012-12-07T00:00:00.000Z",
       "device": [
@@ -81,6 +69,18 @@
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
       "id": "globals__sass-reset"
+    },
+    {
+      "section": "Globals",
+      "title": "sass utils [scss]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "globals__sass-utils"
     }
   ]
 }

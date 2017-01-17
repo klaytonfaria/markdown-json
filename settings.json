@@ -3,5 +3,6 @@
   "cwd": "./",
   "src": "example/content/",
   "filePattern": "**/*.md",
+  "ignore": "*(icon|input)*",
   "dist": "example/output.json"
 }

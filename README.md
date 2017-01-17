@@ -19,7 +19,11 @@ Options:
   -w, --cwd [STRING]     work directory (Default is ./)
   -d, --src [STRING]     file(s) directory (Default is ./)
   -p, --filePattern [STRING]file(s) directory (Default is **/*.md)
+  -i, --ignore STRING    Ignore file pattern
   -d, --dist [STRING]    output file directory (Default is /app/settings.json)
+  -D, --display BOOLEAN  enable display mode
+  -S, --server BOOLEAN   enable server
+  -P, --port [NUMBER]    server port (Default is 3001)
   -h, --help             Display help and usage details
 ```
 
@@ -42,7 +46,10 @@ markdownJson(<settingsObj>) // => returns a Promise
   "cwd": "./",
   "src": "example/content/",
   "filePattern": "**/*.md",
-  "dist": "example/output.json"
+  "ignore": "*(icon|input)*",
+  "dist": "example/output.json",
+  "server": true,
+  "port": 3001
 }
 ```
 
@@ -53,13 +60,16 @@ markdown-json -c ~/app/my-app-settings.json
 
 #### Call through require module example:
 ```JavaScript
-const markdownJson = require('metalsmith-markdown');
+const markdownJson = require('metalsmith-markdown'),
       settings = {
         name: 'markdown-json',
       	cwd: './',
       	src: 'example/content/',
         filePattern: '**/*.md',
-        dist: 'example/output.json'
+        ignore: "*(icon|input)*",
+        dist: 'example/output.json',
+        server: false,
+        port: 3001
       };
 
 markdownJson(settings).then((data) => {

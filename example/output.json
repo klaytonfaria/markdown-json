@@ -7,8 +7,10 @@
     "filePattern": "**/*.md",
     "ignore": "*(icon|input)*",
     "dist": "example/output.json",
+    "server": false,
+    "port": 3001,
     "name": "markdown-json",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "data": [
     {

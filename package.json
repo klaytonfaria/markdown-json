@@ -28,7 +28,6 @@
     "cli": "^1.0.1",
     "jsonfile": "^2.3.1",
     "metalsmith": "^2.2.0",
-    "metalsmith-cleanscript": "0.0.4",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-excerpts": "^1.1.0",
     "metalsmith-filter": "^1.0.2",

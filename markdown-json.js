@@ -12,7 +12,6 @@ const pkg = json.readFileSync('./package.json', {throws: true}) || null
 
 cli.parse(helpme)
 
-
 if (require.main === module) {
   cli.main((args, options) => {
     try {

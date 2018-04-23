@@ -189,4 +189,4 @@ Base button layout sample:
 - [X] Node api with promises
 - [ ] Code review
 - [ ] Some unit tests
-- [ ] Run with http server
+- [X] Run with http server

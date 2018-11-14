@@ -29,7 +29,7 @@ Options:
 
 ### Require module usage:
 ```JavaScript
-const markdownJson = require('metalsmith-markdown');
+const markdownJson = require('markdown-json');
 
 markdownJson(<settingsObj>) // => returns a Promise
 ```
@@ -60,8 +60,8 @@ markdown-json -c ~/app/my-app-settings.json
 
 #### Call through require module example:
 ```JavaScript
-const markdownJson = require('metalsmith-markdown'),
-      settings = {
+const markdownJson = require('markdown-json');
+const settings = {
         name: 'markdown-json',
       	cwd: './',
       	src: 'example/content/',
@@ -89,7 +89,7 @@ markdownJson(settings).then((data) => {
 ---
 section: Elements
 title: icons
-tags: 
+tags:
 - icons
 - base
 ---
@@ -104,10 +104,10 @@ Our icons list still is empty :(
 ---
 section: Elements
 title: buttons
-device: 
+device:
 - desktop
 - mobile
-styles: 
+styles:
 - https://lalao.com/styles/structure.min.css
 - https://lalao.com/styles/app.min.css
 ---
@@ -179,7 +179,7 @@ Base button layout sample:
       "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
       "excerpt": "<p>Our icons list still is empty :(</p>",
       "id": "icons"
-    }    
+    }
   ]
 }
 ```
@@ -187,6 +187,5 @@ Base button layout sample:
 
 ## TODOS
 - [X] Node api with promises
-- [ ] Code review
-- [ ] Some unit tests
+- [ ] Unit tests
 - [X] Run with http server

@@ -2,7 +2,10 @@
   "name": "markdown-json",
   "version": "1.2.0",
   "description": "Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.",
-  "main": "index.js",
+  "main": "markdown-json.js",
+  "bin": {
+    "markdown-json": "markdown-json.js"
+  },
   "scripts": {
     "test": "test"
   },
@@ -18,26 +21,26 @@
     "html"
   ],
   "devDependencies": {
-    "eslint": "^3.13.1",
-    "eslint-config-standard": "^6.0.0-beta.3",
-    "eslint-plugin-promise": "^3.4.0",
-    "eslint-plugin-standard": "^2.0.0",
-    "eslint-watch": "^2.1.14"
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-watch": "^4.0.2"
   },
   "dependencies": {
     "cli": "^1.0.1",
-    "jsonfile": "^2.3.1",
+    "jsonfile": "^5.0.0",
     "metalsmith": "^2.2.0",
     "metalsmith-collections": "^0.9.0",
     "metalsmith-excerpts": "^1.1.0",
     "metalsmith-filter": "^1.0.2",
-    "metalsmith-ignore": "^0.1.2",
-    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-ignore": "^1.0.0",
+    "metalsmith-markdown": "^1.1.0",
     "metalsmith-prompt": "0.0.8",
-    "metalsmith-to-json": "0.0.7",
+    "metalsmith-to-json": "1.0.0",
     "metalsmith-updated": "^0.1.4"
   },
-  "author": "Klayton Faria <klayton.souza@gmail.com> (http://klaytonfaria.io)",
+  "author": "Klayton Faria <klayton.souza@gmail.com> (http://klayton.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/klaytonfaria/markdown-json/issues"

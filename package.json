@@ -1,6 +1,6 @@
 {
   "name": "markdown-json",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "description": "Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.",
   "main": "markdown-json.js",
   "bin": {

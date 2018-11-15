@@ -7,11 +7,18 @@
     "markdown-json": "markdown-json.js"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "release": "semantic-release"
   },
+  "author": "Klayton Faria <klayton.souza@gmail.com> (http://klayton.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klaytonfaria/markdown-json/issues"
+  },
+  "homepage": "https://github.com/klaytonfaria/markdown-json#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/klaytonfaria/markdown-json.git"
+    "url": "https://github.com/klaytonfaria/markdown-json.git"
   },
   "keywords": [
     "markdown",
@@ -21,11 +28,16 @@
     "html"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "eslint": "^5.9.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-watch": "^4.0.2"
+    "eslint-watch": "^4.0.2",
+    "semantic-release": "^15.12.0"
   },
   "dependencies": {
     "cli": "^1.0.1",
@@ -40,10 +52,17 @@
     "metalsmith-to-json": "1.0.0",
     "metalsmith-updated": "^0.1.4"
   },
-  "author": "Klayton Faria <klayton.souza@gmail.com> (http://klayton.io)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/klaytonfaria/markdown-json/issues"
-  },
-  "homepage": "https://github.com/klaytonfaria/markdown-json#readme"
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  }
 }

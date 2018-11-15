@@ -1,30 +1,18 @@
 {
   "app": {
-    "display": true,
+    "server": true,
     "config": "./settings.json",
     "cwd": "./",
     "src": "example/content/",
     "filePattern": "**/*.md",
     "ignore": "*(icon|input)*",
     "dist": "example/output.json",
-    "server": false,
+    "display": true,
     "port": 3001,
     "name": "markdown-json",
     "version": "1.2.0"
   },
   "data": [
-    {
-      "section": "Globals",
-      "title": "utils [js]",
-      "date": "2012-12-07T00:00:00.000Z",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "id": "globals__js-utils"
-    },
     {
       "section": "Globals",
       "title": "sass reset",
@@ -48,6 +36,18 @@
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
       "id": "globals__sass-utils"
+    },
+    {
+      "section": "Globals",
+      "title": "utils [js]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "globals__js-utils"
     }
   ]
 }

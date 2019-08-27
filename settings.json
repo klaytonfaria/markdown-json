@@ -1,8 +1,8 @@
 {
   "name": "markdown-json",
   "cwd": "./",
-  "src": "example/content/",
+  "src": "example/",
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
-  "dist": "example/output.json"
+  "dist": "build/example/output.json"
 }

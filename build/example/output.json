@@ -1,0 +1,90 @@
+{
+  "app": {
+    "config": "./settings.json",
+    "cwd": "./",
+    "src": "example/",
+    "filePattern": "**/*.md",
+    "ignore": "*(icon|input)*",
+    "dist": "build/example/output.json",
+    "display": true,
+    "server": false,
+    "port": 3001,
+    "name": "markdown-json",
+    "version": "1.4.0"
+  },
+  "data": [
+    {
+      "section": "Elements",
+      "title": "buttons",
+      "device": [
+        "desktop",
+        "mobile"
+      ],
+      "styles": [
+        "https://lalao.com/styles/structure.min.css",
+        "https://lalao.com/styles/app.min.css"
+      ],
+      "contents": "<p>Follow some application examples of buttons</p>\n<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"language-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}</code></pre>\n<pre><code class=\"language-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;</code></pre>\n",
+      "excerpt": "<p>Follow some application examples of buttons</p>",
+      "id": "content__buttons"
+    },
+    {
+      "section": "Elements",
+      "title": "icons",
+      "tags": [
+        "icons",
+        "base"
+      ],
+      "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
+      "excerpt": "<p>Our icons list still is empty :(</p>",
+      "id": "content__icons"
+    },
+    {
+      "section": "Elements",
+      "title": "input",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "content__input"
+    },
+    {
+      "section": "Globals",
+      "title": "utils [js]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "content__globals__js-utils"
+    },
+    {
+      "section": "Globals",
+      "title": "sass reset",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "content__globals__sass-reset"
+    },
+    {
+      "section": "Globals",
+      "title": "sass utils [scss]",
+      "date": "2012-12-07T00:00:00.000Z",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
+      "id": "content__globals__sass-utils"
+    }
+  ]
+}

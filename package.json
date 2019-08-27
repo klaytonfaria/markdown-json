@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "test",
+    "lint": "eslint --fix ./lib",
     "release": "semantic-release"
   },
   "author": "Klayton Faria <klayton.souza@gmail.com> (http://klayton.io)",
@@ -28,29 +29,31 @@
     "html"
   ],
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.1",
-    "@semantic-release/commit-analyzer": "^6.1.0",
-    "@semantic-release/git": "^7.0.5",
-    "@semantic-release/release-notes-generator": "^7.1.4",
-    "eslint": "^5.9.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-watch": "^4.0.2",
-    "semantic-release": "^15.12.0"
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.3.0",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/release-notes-generator": "^7.3.0",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-watch": "^6.0.0",
+    "semantic-release": "^15.13.24"
   },
   "dependencies": {
     "cli": "^1.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
     "jsonfile": "^5.0.0",
-    "metalsmith": "^2.2.0",
+    "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
-    "metalsmith-excerpts": "^1.1.0",
+    "metalsmith-excerpts": "^1.2.0",
     "metalsmith-filter": "^1.0.2",
     "metalsmith-ignore": "^1.0.0",
-    "metalsmith-markdown": "^1.1.0",
+    "metalsmith-markdown": "^1.2.0",
     "metalsmith-prompt": "0.0.8",
     "metalsmith-to-json": "1.0.0",
-    "metalsmith-updated": "^0.1.4"
+    "metalsmith-updated": "^0.1.7"
   },
   "release": {
     "plugins": [

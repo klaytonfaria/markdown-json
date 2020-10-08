@@ -1,4 +1,4 @@
-markdown-json [![npm](https://img.shields.io/npm/dt/markdown-json.svg)]() [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+markdown-json [![npm](https://img.shields.io/npm/dt/markdown-json.svg)]() [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) ![Publish packages](https://github.com/klaytonfaria/markdown-json/workflows/Publish%20packages/badge.svg)
 ===
 
 Markdown to json has yaml support and converts your markdown files to json so you can use them as a static api.

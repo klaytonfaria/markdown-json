@@ -9,7 +9,7 @@
   "scripts": {
     "test": "test",
     "lint": "eslint --fix ./lib",
-    "release": "semantic-release"
+    "release": "npx semantic-release"
   },
   "author": "Klayton Faria <klayton.souza@gmail.com> (http://klayton.io)",
   "license": "MIT",

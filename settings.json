@@ -4,5 +4,6 @@
   "src": "example/",
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
-  "dist": "build/example/output.json"
+  "dist": "build/example/output.json",
+  "metadata": false
 }

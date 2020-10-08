@@ -6,9 +6,8 @@ const cli = require('cli')
 const path = require('path')
 const json = require('jsonfile')
 const helpme = require('./lib/helpme')
-const extend = require('util')._extend
 const generator = require('./lib/generator')
-const pkg = json.readFileSync('./package.json', {throws: true}) || null
+const pkg = json.readFileSync('./package.json', { throws: true }) || null
 
 cli.parse(helpme)
 
@@ -18,7 +17,7 @@ if (require.main === module) {
       const file = path.resolve(__dirname, options.config)
       if (fs.existsSync(file)) {
         const settingsFromFile = json.readFileSync(file, { throws: true }) || {}
-        const settings = extend(options, settingsFromFile)
+        const settings = Object.assign({}, options, settingsFromFile)
         if (options.version) {
           console.log(pkg.version)
         } else {

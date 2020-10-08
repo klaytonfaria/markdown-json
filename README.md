@@ -48,6 +48,7 @@ markdownJson(<settingsObj>) // => returns a Promise
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
   "dist": "example/output.json",
+  "metadata": true,
   "server": true,
   "port": 3001
 }
@@ -68,6 +69,7 @@ const settings = {
         filePattern: '**/*.md',
         ignore: "*(icon|input)*",
         dist: 'example/output.json',
+        metadata: true,
         server: false,
         port: 3001
       };
@@ -167,7 +169,14 @@ Base button layout sample:
       ],
       "contents": "<p>Follow some application examples of buttons</p>\n<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"lang-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}\n</code></pre>\n<pre><code class=\"lang-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;\n</code></pre>\n",
       "excerpt": "<p>Follow some application examples of buttons</p>",
-      "id": "buttons"
+      "id": "buttons",
+      "meta": {
+        "relativePath": "content/buttons.html",
+        "createdAt": "2020-10-08T16:05:30.415Z",
+        "lastModified": "2020-10-08T16:05:14.452Z",
+        "size": 2095,
+        "formattedSize": "2.0 KB"
+      }
     },
     {
       "section": "Elements",
@@ -178,7 +187,14 @@ Base button layout sample:
       ],
       "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
       "excerpt": "<p>Our icons list still is empty :(</p>",
-      "id": "icons"
+      "id": "icons",
+      "meta": {
+        "relativePath": "content/globals/js-utils.html",
+        "createdAt": "2019-08-27T18:01:33.747Z",
+        "lastModified": "2019-08-27T18:01:33.747Z",
+        "size": 331,
+        "formattedSize": "331 Bytes"
+      }
     }
   ]
 }
@@ -189,3 +205,4 @@ Base button layout sample:
 - [X] Node api with promises
 - [ ] Unit tests
 - [X] Run with http server
+- [X] Add file metadata

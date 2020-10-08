@@ -5,15 +5,6 @@ on:
     branches: [ master, beta, alpha ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: npm ci
-
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
@@ -23,8 +14,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm run publish
+      - run: yarn install --frozen-lockfile
+      - run: npm release
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
@@ -37,7 +28,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci
-      - run: npm run publish
+      - run: yarn install --frozen-lockfile
+      - run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{secrets.GH_TOKEN}}

@@ -7,7 +7,7 @@ const path = require('path')
 const json = require('jsonfile')
 const helpme = require('./lib/helpme')
 const generator = require('./lib/generator')
-const pkg = json.readFileSync('./package.json', { throws: true }) || null
+const pkg = json.readFileSync('./package.json', { throws: false }) || null
 
 cli.parse(helpme)
 

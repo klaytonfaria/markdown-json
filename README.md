@@ -20,7 +20,7 @@ Options:
   -d, --src [STRING]     file(s) directory (Default is ./)
   -p, --filePattern [STRING]file(s) directory (Default is **/*.md)
   -i, --ignore STRING    Ignore file pattern
-  -d, --dist [STRING]    output file directory (Default is /app/settings.json)
+  -d, --dist [STRING]    output file directory (Default is ./dist/output.json)
   -D, --display BOOLEAN  enable display mode
   -S, --server BOOLEAN   enable server
   -P, --port [NUMBER]    server port (Default is 3001)

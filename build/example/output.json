@@ -1,6 +1,5 @@
 {
   "app": {
-    "server": true,
     "config": "./settings.json",
     "cwd": "./",
     "src": "example/",
@@ -8,10 +7,11 @@
     "ignore": "*(icon|input)*",
     "dist": "build/example/output.json",
     "display": true,
+    "server": false,
     "port": 3001,
     "name": "markdown-json",
-    "metadata": true,
-    "version": "1.4.1"
+    "metadata": false,
+    "version": "1.5.0"
   },
   "data": [
     {
@@ -27,14 +27,18 @@
         "https://lalao.com/styles/structure.min.css",
         "https://lalao.com/styles/app.min.css"
       ],
-      "excerpt": "<p>Follow some application examples of buttons</p>",
-      "meta": {
-        "relativePath": "content/buttons.html",
-        "createdAt": "2019-08-27T18:39:15.305Z",
-        "lastModified": "2019-08-27T18:39:15.305Z",
-        "size": 610,
-        "formattedSize": "610 Bytes"
-      }
+      "excerpt": "<p>Follow some application examples of buttons</p>"
+    },
+    {
+      "id": "content__input",
+      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "section": "Elements",
+      "title": "input",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
       "id": "content__icons",
@@ -45,14 +49,7 @@
         "icons",
         "base"
       ],
-      "excerpt": "<p>Our icons list still is empty :(</p>",
-      "meta": {
-        "relativePath": "content/icons.html",
-        "createdAt": "2019-08-27T18:01:33.747Z",
-        "lastModified": "2019-08-27T18:01:33.747Z",
-        "size": 104,
-        "formattedSize": "104 Bytes"
-      }
+      "excerpt": "<p>Our icons list still is empty :(</p>"
     },
     {
       "id": "content__text-and-image",
@@ -64,32 +61,7 @@
         "text",
         "long"
       ],
-      "excerpt": "",
-      "meta": {
-        "relativePath": "content/text-and-image.html",
-        "createdAt": "2020-10-08T16:05:30.415Z",
-        "lastModified": "2020-10-08T16:05:14.452Z",
-        "size": 2095,
-        "formattedSize": "2.0 KB"
-      }
-    },
-    {
-      "id": "content__input",
-      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "section": "Elements",
-      "title": "input",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "meta": {
-        "relativePath": "content/input.html",
-        "createdAt": "2019-08-27T18:01:33.747Z",
-        "lastModified": "2019-08-27T18:01:33.747Z",
-        "size": 314,
-        "formattedSize": "314 Bytes"
-      }
+      "excerpt": ""
     },
     {
       "id": "content__globals__js-utils",
@@ -101,14 +73,7 @@
         "desktop",
         "tablet"
       ],
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "meta": {
-        "relativePath": "content/globals/js-utils.html",
-        "createdAt": "2019-08-27T18:01:33.747Z",
-        "lastModified": "2019-08-27T18:01:33.747Z",
-        "size": 331,
-        "formattedSize": "331 Bytes"
-      }
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
       "id": "content__globals__sass-reset",
@@ -120,14 +85,7 @@
         "desktop",
         "tablet"
       ],
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "meta": {
-        "relativePath": "content/globals/sass-reset.html",
-        "createdAt": "2019-08-27T18:01:33.747Z",
-        "lastModified": "2019-08-27T18:01:33.747Z",
-        "size": 331,
-        "formattedSize": "331 Bytes"
-      }
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
       "id": "content__globals__sass-utils",
@@ -139,14 +97,7 @@
         "desktop",
         "tablet"
       ],
-      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>",
-      "meta": {
-        "relativePath": "content/globals/sass-utils.html",
-        "createdAt": "2019-08-27T18:01:33.747Z",
-        "lastModified": "2019-08-27T18:01:33.747Z",
-        "size": 338,
-        "formattedSize": "338 Bytes"
-      }
+      "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     }
   ]
 }

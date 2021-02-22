@@ -14,7 +14,7 @@ cli.parse(helpme)
 if (require.main === module) {
   cli.main((args, options) => {
     try {
-      const file = path.resolve(__dirname, options.config)
+      const file = path.resolve(options.cwd, options.config)
       if (fs.existsSync(file)) {
         const settingsFromFile = json.readFileSync(file, { throws: true }) || {}
         const settings = Object.assign({}, options, settingsFromFile)
@@ -33,4 +33,3 @@ if (require.main === module) {
 } else {
   module.exports = generator.build
 }
-

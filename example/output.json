@@ -1,5 +1,6 @@
 {
   "app": {
+    "deterministicOrder": false,
     "server": true,
     "config": "./settings.json",
     "cwd": "./",

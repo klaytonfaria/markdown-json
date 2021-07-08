@@ -15,16 +15,17 @@ npm install markdown-json
 markdown-json [OPTIONS] [ARGS]
 
 Options:
-  -c, --config [STRING]  settings file (Default is ./settings.json)
-  -w, --cwd [STRING]     work directory (Default is ./)
-  -d, --src [STRING]     file(s) directory (Default is ./)
-  -p, --filePattern [STRING]file(s) directory (Default is **/*.md)
-  -i, --ignore STRING    Ignore file pattern
-  -d, --dist [STRING]    output file directory (Default is ./dist/output.json)
-  -D, --display BOOLEAN  enable display mode
-  -S, --server BOOLEAN   enable server
-  -P, --port [NUMBER]    server port (Default is 3001)
-  -h, --help             Display help and usage details
+  -c, --config [STRING]              settings file (Default is ./settings.json)
+  -D, --display BOOLEAN              enable display mode
+  -d, --dist [STRING]                output file directory (Default is ./dist/output.json)
+  -i, --ignore STRING                ignore file pattern
+  -o, --deterministicOrder BOOLEAN   enable deterministic output ordering
+  -p, --filePattern [STRING]         file(s) directory (Default is **/*.md)
+  -P, --port [NUMBER]                server port (Default is 3001)
+  -S, --server BOOLEAN               enable server
+  -s, --src [STRING]                 file(s) directory (Default is ./)
+  -w, --cwd [STRING]                 work directory (Default is ./)
+  -h, --help                         display help and usage details
 ```
 
 ### Require module usage:
@@ -50,7 +51,8 @@ markdownJson(<settingsObj>) // => returns a Promise
   "dist": "example/output.json",
   "metadata": true,
   "server": true,
-  "port": 3001
+  "port": 3001,
+  "deterministicOrder": false
 }
 ```
 
@@ -71,7 +73,8 @@ const settings = {
         dist: 'example/output.json',
         metadata: true,
         server: false,
-        port: 3001
+        port: 3001,
+        deterministicOrder: false
       };
 
 markdownJson(settings).then((data) => {

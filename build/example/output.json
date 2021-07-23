@@ -30,17 +30,6 @@
       "excerpt": "<p>Follow some application examples of buttons</p>"
     },
     {
-      "id": "content__input",
-      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
-      "section": "Elements",
-      "title": "input",
-      "device": [
-        "desktop",
-        "tablet"
-      ],
-      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
-    },
-    {
       "id": "content__icons",
       "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
       "section": "Elements",
@@ -50,6 +39,17 @@
         "base"
       ],
       "excerpt": "<p>Our icons list still is empty :(</p>"
+    },
+    {
+      "id": "content__input",
+      "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
+      "section": "Elements",
+      "title": "input",
+      "device": [
+        "desktop",
+        "tablet"
+      ],
+      "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
       "id": "content__text-and-image",

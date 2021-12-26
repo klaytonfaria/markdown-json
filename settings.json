@@ -5,5 +5,6 @@
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
   "dist": "build/example/output.json",
-  "metadata": false
+  "metadata": false,
+  "deterministicOrder": true
 }

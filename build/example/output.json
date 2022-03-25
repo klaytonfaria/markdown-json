@@ -1,6 +1,6 @@
 {
   "app": {
-    "config": "settings.json",
+    "config": "./settings.json",
     "cwd": "./",
     "deterministicOrder": true,
     "display": true,
@@ -11,12 +11,11 @@
     "server": false,
     "src": "example/",
     "name": "markdown-json",
-    "metadata": false,
-    "version": "1.5.0"
+    "metadata": false
   },
   "data": [
     {
-      "id": "content\\buttons",
+      "id": "content__buttons",
       "contents": "<p>Follow some application examples of buttons</p>\n<h1 id=\"types\">Types</h1>\n<h3 id=\"base\">Base</h3>\n<p>Base button layout sample:</p>\n<button type=\"button\" class=\"buy-button btn btn-success\">\n  <span class=\"icon\"></span>\n  <span class=\"text\">Button</span>\n</button>\n\n<pre><code class=\"language-scss\">.btn-primary {\n  @include states(#1A75CE, #086B9C);\n}</code></pre>\n<pre><code class=\"language-html\">&lt;button type=&quot;button&quot; class=&quot;buy-button btn btn-success&quot;&gt;\n  &lt;span class=&quot;icon&quot;&gt;&lt;/span&gt;\n  &lt;span class=&quot;text&quot;&gt;Button&lt;/span&gt;\n&lt;/button&gt;</code></pre>\n",
       "section": "Elements",
       "title": "buttons",
@@ -31,7 +30,7 @@
       "excerpt": "<p>Follow some application examples of buttons</p>"
     },
     {
-      "id": "content\\globals\\js-utils",
+      "id": "content__globals__js-utils",
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "section": "Globals",
       "title": "utils [js]",
@@ -43,7 +42,7 @@
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
-      "id": "content\\globals\\sass-reset",
+      "id": "content__globals__sass-reset",
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "section": "Globals",
       "title": "sass reset",
@@ -55,7 +54,7 @@
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
-      "id": "content\\globals\\sass-utils",
+      "id": "content__globals__sass-utils",
       "contents": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "section": "Globals",
       "title": "sass utils [scss]",
@@ -67,7 +66,7 @@
       "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
-      "id": "content\\icons",
+      "id": "content__icons",
       "contents": "<h1 id=\"icons\">Icons</h1>\n<p>Our icons list still is empty :(</p>\n",
       "section": "Elements",
       "title": "icons",
@@ -78,7 +77,7 @@
       "excerpt": "<p>Our icons list still is empty :(</p>"
     },
     {
-      "id": "content\\input",
+      "id": "content__input",
       "contents": "<h2 id=\"lorem-ipsum-dolor-sit-amet-consectetur-adipisicing-elit\">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>\n<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>\n",
       "section": "Elements",
       "title": "input",
@@ -89,7 +88,7 @@
       "excerpt": "<p>Ullam aspernatur et natus saepe fugiat, eligendi veniam temporibus accusamus molestiae expedita unde? Totam necessitatibus odit consequatur fugit voluptatem, accusamus qui, voluptas.</p>"
     },
     {
-      "id": "content\\text-and-image",
+      "id": "content__text-and-image",
       "contents": "<h2 id=\"o-incentivo-ao-avanço-tecnológico\">O incentivo ao avanço tecnológico.</h2>\n<p>O incentivo ao avanço tecnológico, assim como a constante divulgação das informações ainda não demonstrou convincentemente que vai participar na mudança dos níveis de motivação departamental.\n<img src=\"https://source.unsplash.com/random\" alt=\"unsplash\" height=\"800\" width=\"600\" />\nA certificação de metodologias que nos auxiliam a lidar com a expansão dos mercados mundiais causa impacto indireto na reavaliação do remanejamento dos quadros funcionais.\nPodemos já vislumbrar o modo pelo qual a complexidade dos estudos efetuados promove a alavancagem dos níveis de motivação departamental.\nAcima de tudo, é fundamental ressaltar que o entendimento das metas propostas é uma das consequências dos procedimentos normalmente adotados.\nNo entanto, não podemos esquecer que o fenômeno da Internet aponta para a melhoria de alternativas às soluções ortodoxas.\nEvidentemente, a adoção de políticas descentralizadoras agrega valor ao estabelecimento do orçamento setorial.\nPensando mais a longo prazo, a adoção de políticas descentralizadoras aponta para a melhoria das condições financeiras e administrativas exigidas.\nÉ importante questionar o quanto a constante divulgação das informações promove a alavancagem dos índices pretendidos.\nEvidentemente, a mobilidade dos capitais internacionais acarreta um processo de reformulação e modernização do remanejamento dos quadros funcionais.\nO que temos que ter sempre em mente é que o novo modelo estrutural aqui preconizado ainda não demonstrou convincentemente que vai participar na mudança dos métodos utilizados na avaliação de resultados.\nNo mundo atual, a expansão dos mercados mundiais talvez venha a ressaltar a relatividade das regras de conduta normativas.\nTodas estas questões, devidamente ponderadas, levantam dúvidas sobre se o acompanhamento das preferências de consumo ainda não demonstrou convincentemente que vai participar na mudança dos índices pretendidos.</p>\n",
       "section": "Content",
       "title": "Text and image",

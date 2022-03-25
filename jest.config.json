@@ -1,0 +1,8 @@
+{
+  "collectCoverage": true,
+  "coverageProvider": "v8",
+  "collectCoverageFrom": [
+    "./lib/**"
+  ],
+  "transform": {}
+}

@@ -1,3 +1,10 @@
+# [1.7.0-alpha.1](https://github.com/klaytonfaria/markdown-json/compare/v1.6.1...v1.7.0-alpha.1) (2022-03-30)
+
+
+### Features
+
+* skip file output ([e15175d](https://github.com/klaytonfaria/markdown-json/commit/e15175d530494941a97715717549f6ce3fc28626))
+
 ## [1.6.1](https://github.com/klaytonfaria/markdown-json/compare/v1.6.0...v1.6.1) (2022-01-14)
 
 

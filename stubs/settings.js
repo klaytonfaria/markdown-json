@@ -4,7 +4,7 @@ const SETTINGS = {
   src: './example/',
   filePattern: '**/*.md',
   ignore: '*(icon|input)*',
-  dist: 'build/example/output.json',
+  dist: false,
   metadata: false,
   deterministicOrder: true
 }

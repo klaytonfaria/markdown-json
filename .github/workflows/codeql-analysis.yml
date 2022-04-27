@@ -1,0 +1,41 @@
+# For most projects, this workflow file will not need changing; you simply need
+name: "CodeQL"
+
+on:
+  push:
+    branches: [ main, alpha ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main, alpha ]
+  schedule:
+    - cron: '18 5 * * 4'
+
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        language: [ 'javascript' ]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Initializes the CodeQL tools for scanning.
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v2
+      with:
+        languages: ${{ matrix.language }}
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v2
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v2

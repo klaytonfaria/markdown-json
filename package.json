@@ -41,7 +41,7 @@
     "eslint-watch": "^7.0.0",
     "jest": "^26.5.2",
     "prettier-config-standard": "^1.0.1",
-    "semantic-release": "^17.1.2"
+    "semantic-release": "^21.0.1"
   },
   "dependencies": {
     "cli": "^1.0.1",
